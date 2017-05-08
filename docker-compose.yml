@@ -1,0 +1,11 @@
+version: "2"
+
+services: 
+  client:
+    build: phinestversion-client
+    ports:
+      - "4200:4200"
+  api:
+    build: phinestversion-api
+    ports:
+      - "8000:8000"
