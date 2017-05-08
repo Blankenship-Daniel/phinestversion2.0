@@ -1,0 +1,6 @@
+[submodule "phinestversion-api"]
+	path = phinestversion-api
+	url = https://github.com/Blankenship-Daniel/phinestversion-api.git
+[submodule "phinestversion-client"]
+	path = phinestversion-client
+	url = https://github.com/Blankenship-Daniel/phinestversion-client.git
