@@ -5,6 +5,8 @@ services:
     build: phinestversion-client
     ports:
       - "4200:4200"
+    volumes:
+      - ./phinestversion-client:/usr/src/app
   api:
     build: phinestversion-api
     ports:
